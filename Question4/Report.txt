@@ -1,1 +1,16 @@
+Log Monitoring Report
 
+Real-Time Monitoring:
+The log file was monitored using Linux commands designed for log analysis.
+
+ERROR Extraction:
+The grep command filtered only ERROR messages from the log file.
+
+Separate Report:
+ERROR messages were redirected into error_report.txt using output redirection.
+
+Output Suppression:
+The /dev/null device suppressed unnecessary error messages from the terminal.
+
+Conclusion:
+Pipes, grep, redirection, and /dev/null provide an efficient method for filtering and managing log files in Linux.
