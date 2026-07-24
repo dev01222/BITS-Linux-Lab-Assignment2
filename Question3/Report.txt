@@ -1,1 +1,19 @@
+Employee Records Report
 
+File Creation:
+The program created the employee data file using the open() system call.
+
+Writing Records:
+Employee records were written using the write() system call.
+
+Updating Records:
+The lseek() system call positioned the file pointer, allowing a specific record to be updated without rewriting the complete file.
+
+Reading Records:
+The read() system call retrieved employee records from the file.
+
+Closing the File:
+The close() system call released the file descriptor after completing all file operations.
+
+Conclusion:
+The program demonstrated efficient file processing using Linux system calls including open(), write(), lseek(), read(), and close().
