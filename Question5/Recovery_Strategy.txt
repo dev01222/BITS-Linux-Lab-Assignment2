@@ -1,1 +1,19 @@
+Recovery Strategy Report
 
+Swap Files:
+Swap files are automatically created by vi to preserve unsaved work during editing.
+
+Undo History:
+Undo history allows recent editing operations to be reversed during an editing session.
+
+Registers:
+Registers temporarily store copied and deleted text for reuse.
+
+Backup Files:
+Backup files preserve previous versions of important documents.
+
+Auto-Recovery:
+vi detects swap files after a crash and provides recovery options to restore unsaved work.
+
+Recommended Strategy:
+Using swap files together with auto-recovery provides the most reliable protection against unexpected system crashes. Backup files further improve data safety by preserving earlier versions of important documents.
