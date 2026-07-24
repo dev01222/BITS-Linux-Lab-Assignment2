@@ -1,1 +1,16 @@
+Process Monitoring Report
 
+Child Process Creation:
+A child process was successfully created using fork().
+
+Process Monitoring:
+The parent process monitored the child process execution after creation.
+
+Zombie Process Prevention:
+The wait() function collected the child process after termination, preventing zombie processes.
+
+Signal Handling:
+The child process was terminated using the SIGTERM signal.
+
+Conclusion:
+The program successfully demonstrated process creation, monitoring, signal handling, and proper cleanup of child processes.
