@@ -1,1 +1,6 @@
-
+touch server.log
+cat server.log
+grep "ERROR" server.log
+grep "ERROR" server.log > error_report.txt
+cat server.log | grep "ERROR"
+ls unknownfile 2> /dev/null
